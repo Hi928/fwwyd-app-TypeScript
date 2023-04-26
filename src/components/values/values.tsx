@@ -11,6 +11,7 @@ type Image = {
   src: string;
   height: number;
   width: number;
+  alt: string;
 };
 
 const Values: React.FC<Props> = (props) => {
@@ -25,14 +26,14 @@ const Values: React.FC<Props> = (props) => {
       <ul className="flex flex-col items-center justify-center gap-12 sm:flex-row">
         {listItems.map((item) => (
           <li key={item.id} className="flex flex-col items-center sm:max-w-sm">
-            {item.images.map((image:Image) => (
+            {item.images.map((image: Image) => (
               <Image
                 key={image.src}
                 priority
                 src={image.src}
                 height={image.height}
                 width={image.width}
-                alt=""
+                alt={image.alt}
               />
             ))}
             <h4 className="my-2 py-4 px-4 text-2xl text-teal-700">

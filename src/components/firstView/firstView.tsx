@@ -22,7 +22,7 @@ const FirstView: React.FC<Props> = (props) => {
         height={585}
         width={498}
         className="sm:mr-12"
-        alt=""
+        alt="ヒーロー"
       />
     </div>
   );

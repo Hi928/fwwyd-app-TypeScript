@@ -10,4 +10,5 @@ export type ImageListItem = {
   src: string;
   height: number;
   width: number;
+  alt: string;
 };

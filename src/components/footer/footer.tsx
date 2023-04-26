@@ -16,6 +16,7 @@ type Image = {
   src: string;
   height: number;
   width: number;
+  alt: string;
 };
 
 const Footer: React.FC<Props> = (props) => {
@@ -37,7 +38,7 @@ const Footer: React.FC<Props> = (props) => {
         height={imageItems.height}
         width={imageItems.width}
         className="items-center mt-10"
-        alt=""
+        alt={imageItems.alt}
       />
       <div className="flex items-center gap-10 mt-8">
         {snsItems.map((item: Image) => (
@@ -48,7 +49,7 @@ const Footer: React.FC<Props> = (props) => {
             height={item.height}
             width={item.width}
             className="items-center"
-            alt=""
+            alt={item.alt}
           />
         ))}
       </div>

@@ -11,6 +11,7 @@ type Image = {
   src: string;
   height: number;
   width: number;
+  alt: string;
 };
 
 const About: React.FC<Props> = (props) => {
@@ -32,7 +33,7 @@ const About: React.FC<Props> = (props) => {
                 src={image.src}
                 height={image.height}
                 width={image.width}
-                alt=""
+                alt={image.alt}
               />
             ))}
             <h4 className="my-2 py-4 px-4 text-2xl text-teal-700 text-center">

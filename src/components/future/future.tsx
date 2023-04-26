@@ -11,6 +11,7 @@ type Image = {
   src: string;
   height: number;
   width: number;
+  alt: string;
 };
 
 const Future: React.FC<Props> = (props) => {
@@ -36,7 +37,7 @@ const Future: React.FC<Props> = (props) => {
                     src={image.src}
                     height={image.height}
                     width={image.width}
-                    alt=""
+                    alt={image.alt}
                   />
                 ))
               : false}
