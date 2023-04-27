@@ -1,11 +1,12 @@
 import Image from "next/image";
+import { headerListItems as listItems } from "data/data";
 
 type ContentItem = {
   id: number;
   content: string;
 };
 
-export const Navi = ({ listItems }) => {
+export const Navi = () => {
   return (
     <>
       <div className="flex sm:items-center">
