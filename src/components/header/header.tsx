@@ -1,4 +1,4 @@
-import Nav from "../navi/nav";
+import Nav from "../Navi/Nav";
 import { headerListItems as listItems } from "../../data/data";
 
 const Header = () => {
