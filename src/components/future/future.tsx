@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { futureListItems as listItems } from "../../data/data";
+import { futureListItems as listItems } from "data/data";
 
 type Props = {
   title: string;
