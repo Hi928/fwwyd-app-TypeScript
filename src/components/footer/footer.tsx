@@ -19,7 +19,7 @@ type Image = {
   alt: string;
 };
 
-const Footer: React.FC<Props> = (props) => {
+export const Footer: React.FC<Props> = (props) => {
   return (
     <footer className="bg-slate-800 flex flex-col items-center">
       <p className="hidden sm:block mt-6 text-white text-xl">
@@ -57,5 +57,3 @@ const Footer: React.FC<Props> = (props) => {
     </footer>
   );
 };
-
-export default Footer;

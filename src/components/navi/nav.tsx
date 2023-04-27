@@ -5,7 +5,7 @@ type ContentItem = {
   content: string;
 };
 
-const Nav = ({ listItems }) => {
+export const Nav = ({ listItems }) => {
   return (
     <>
       <div className="flex sm:items-center">
@@ -28,5 +28,3 @@ const Nav = ({ listItems }) => {
     </>
   );
 };
-
-export default Nav;

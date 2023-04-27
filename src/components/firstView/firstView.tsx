@@ -5,7 +5,7 @@ type Props = {
   subTitle: string;
 };
 
-const FirstView: React.FC<Props> = (props) => {
+export const FirstView: React.FC<Props> = (props) => {
   return (
     <div className=" bg-teal-200 flex flex-col sm:flex-row sm:items-center sm:justify-between">
       <div className="mt-4 sm:ml-10 sm:mt-0">
@@ -27,5 +27,3 @@ const FirstView: React.FC<Props> = (props) => {
     </div>
   );
 };
-
-export default FirstView;

@@ -14,7 +14,7 @@ type Image = {
   alt: string;
 };
 
-const Skills: React.FC<Props> = (props) => {
+export const Skills: React.FC<Props> = (props) => {
   return (
     <div className="bg-[url('/images/bg-skills.png')] bg-cover bg-center mt-24">
       <h3 className="py-4 px-4 text-2xl text-gray-700 text-center">
@@ -52,5 +52,3 @@ const Skills: React.FC<Props> = (props) => {
     </div>
   );
 };
-
-export default Skills;

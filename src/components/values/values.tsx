@@ -14,7 +14,7 @@ type Image = {
   alt: string;
 };
 
-const Values: React.FC<Props> = (props) => {
+export const Values: React.FC<Props> = (props) => {
   return (
     <div className="bg-[url('/images/bg-about.png')] bg-cover bg-center">
       <h3 className="mt-8 py-4 px-4 text-2xl text-gray-700 text-center">
@@ -46,5 +46,3 @@ const Values: React.FC<Props> = (props) => {
     </div>
   );
 };
-
-export default Values;

@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
 
+import { Header } from "../Header/Header";
+import { Footer } from "../Footer/Footer";
 
-export default function Layout({ children }: { children: React.ReactNode }) {
+export const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <Head>
@@ -14,4 +14,4 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <Footer name="名前 太郎" copyRight="©︎2021 KIKAGAKU" />
     </>
   );
-}
+};
