@@ -40,11 +40,11 @@ export const Skills: React.FC<Props> = (props) => {
                     alt={image.alt}
                   />
                 ))
-              : false}
+              : null}
             {item.content ? (
               <p className="my-2 py-4 px-4 sm:max-w-sm">{item.content}</p>
             ) : (
-              false
+              null
             )}
           </li>
         ))}
