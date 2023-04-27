@@ -5,7 +5,7 @@ type ContentItem = {
   content: string;
 };
 
-export const Nav = ({ listItems }) => {
+export const Navi = ({ listItems }) => {
   return (
     <>
       <div className="flex sm:items-center">
