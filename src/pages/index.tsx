@@ -15,8 +15,8 @@ export default function Home() {
       <FirstView title="メインタイトル" subTitle="サブタイトル" />
       <About title="私について" subTitle="ABOUT" />
       <Skills title="スキル" subTitle="SKILLS" />
-      <Values title="価値観" subTitle="VALUES"/>
-      <Future title="3年後にやりたいこと" subTitle="FUTURE"/>
+      <Values title="価値観" subTitle="VALUES" />
+      <Future title="3年後にやりたいこと" subTitle="FUTURE" />
     </Layout>
   );
 }

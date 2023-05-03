@@ -43,9 +43,7 @@ export const Future: React.FC<Props> = (props) => {
               : null}
             {item.content ? (
               <p className="my-2 py-4 px-4 sm:max-w-sm">{item.content}</p>
-            ) : (
-              null
-            )}
+            ) : null}
           </li>
         ))}
       </ul>

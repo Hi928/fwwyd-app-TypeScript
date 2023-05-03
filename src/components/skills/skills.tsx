@@ -30,7 +30,7 @@ export const Skills: React.FC<Props> = (props) => {
             className="flex flex-col justify-center items-center min-w-full sm:min-w-min"
           >
             {item.images
-              ? item.images.map((image:Image) => (
+              ? item.images.map((image: Image) => (
                   <Image
                     key={image.src}
                     priority
@@ -43,9 +43,7 @@ export const Skills: React.FC<Props> = (props) => {
               : null}
             {item.content ? (
               <p className="my-2 py-4 px-4 sm:max-w-sm">{item.content}</p>
-            ) : (
-              null
-            )}
+            ) : null}
           </li>
         ))}
       </ul>
